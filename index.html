@@ -1,4 +1,7 @@
-<!-- Электронная карта самоконтроля — улучшенный визуал -->
+<!-- Вставьте в <head> (если ещё нет) -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Начало: Электронная карта самоконтроля (вставьте в body) -->
 <section class="cardio-info" aria-labelledby="cardio-title">
   <div class="ci-inner">
     <header class="ci-header">
@@ -10,14 +13,14 @@
 
     <!-- Блок 1 -->
     <article class="ci-block" id="block-1" aria-labelledby="b1-title">
-      <h2 id="b1-title" class="ci-block-title">📊 БЛОК 1. МОИ ЦЕЛЕВЫЕ ЦИФРЫ (Жёсткие ориентиры)</h2>
+      <h2 id="b1-title" class="ci-block-title"><span aria-hidden="true">📊</span> БЛОК 1 — МОИ ЦЕЛЕВЫЕ ЦИФРЫ</h2>
       <ul class="ci-list">
         <li><strong>Артериальное давление дома:</strong> строго <strong>НИЖЕ 130/80 мм рт. ст.</strong></li>
-        <li><strong>Пульс в покое:</strong> строго <strong>55–60 уд/мин</strong>.
+        <li><strong>Частота сердечных сокращений в покое:</strong> строго <strong>55–60 уд/мин</strong>.
           <span class="note">Если пульс перед приёмом таблетки ниже 50–52 уд/мин — отложите Бисопролол и обратитесь к врачу.</span>
         </li>
-        <li><strong>ЛПНП (холестерин):</strong> строго <strong>НИЖЕ 1,4 ммоль/л</strong>.</li>
-        <li><strong>Лабконтроль (Приказ №168н):</strong> 1 раз в год — креатинин, ТТГ, Т3, Т4.</li>
+        <li><strong>Целевой ЛПНП:</strong> строго <strong>НИЖЕ 1,4 ммоль/л</strong>.</li>
+        <li><strong>Лабораторный контроль (Приказ №168н):</strong> 1× в год — креатинин, ТТГ, Т3, Т4.</li>
       </ul>
     </article>
 
@@ -25,7 +28,7 @@
 
     <!-- Блок 2 -->
     <article class="ci-block" id="block-2" aria-labelledby="b2-title">
-      <h2 id="b2-title" class="ci-block-title">🍏 БЛОК 2. ПРАВИЛО СВЕТОФОРА (Диета Стол №10)</h2>
+      <h2 id="b2-title" class="ci-block-title"><span aria-hidden="true">🍏</span> БЛОК 2 — ПРАВИЛО СВЕТОФОРА (Диета Стол №10)</h2>
       <div class="traffic">
         <div class="traffic-row">
           <div class="dot green" aria-hidden="true"></div>
@@ -37,7 +40,7 @@
         </div>
         <div class="traffic-row">
           <div class="dot red" aria-hidden="true"></div>
-          <div class="traffic-text"><strong>Запрещено</strong> — соленья, колбасы, маринады, фастфуд, жирное и жареное.</div>
+          <div class="traffic-text"><strong>Категорически запрещено</strong> — соленья, колбасы, маринады, фастфуд, жирное и жареное.</div>
         </div>
       </div>
     </article>
@@ -46,40 +49,43 @@
 
     <!-- Блок 3 -->
     <article class="ci-block" id="block-3" aria-labelledby="b3-title">
-      <h2 id="b3-title" class="ci-block-title">🚨 БЛОК 3. ТРЕВОЖНЫЕ ПРИЗНАКИ</h2>
+      <h2 id="b3-title" class="ci-block-title"><span aria-hidden="true">🚨</span> БЛОК 3 — ТРЕВОЖНЫЕ ПРИЗНАКИ</h2>
       <p class="ci-emph">При выраженной боли за грудиной, резкой одышке, резком скачке давления или пульса — НЕМЕДЛЕННО:</p>
       <ol class="ci-list">
-        <li>Прекратите нагрузку и спокойно сядьте.</li>
-        <li>Примите 1 таблетку Нитроглицерина под язык (или 1 дозу спрея Изокет).</li>
+        <li>Прекратите любую физическую нагрузку и спокойно сядьте.</li>
+        <li>Примите 1 таблетку Нитроглицерина под язык или 1 дозу спрея Изокет.</li>
         <li>Разжуйте 0,5 таблетки Аспирина.</li>
       </ol>
-      <p class="ci-warning">⚠️ Если боль длится более 5 минут — вызывайте Скорую помощь!</p>
+      <p class="ci-warning">⚠️ Если боль длится более 5 минут — срочно вызывайте Скорую помощь (103 / 112).</p>
+      <p class="emergency-row">
+        <a class="emergency-button" href="tel:103" aria-label="Вызвать скорую 103">📞 Вызвать скорую — 103</a>
+      </p>
     </article>
 
     <hr class="ci-sep">
 
     <!-- Блок 4 -->
     <article class="ci-block" id="block-4" aria-labelledby="b4-title">
-      <h2 id="b4-title" class="ci-block-title">🛡️ БЛОК 4. МЕДИКАМЕНТОЗНЫЙ КОМПЛАЕНС</h2>
+      <h2 id="b4-title" class="ci-block-title"><span aria-hidden="true">🛡️</span> БЛОК 4 — МЕДИКАМЕНТОЗНЫЙ КОМПЛАЕНС</h2>
       <p class="ci-emph">Принимайте препараты строго по часам. Самовольная отмена опасна.</p>
       <ul class="ci-list">
         <li><strong>Антиагреганты (Кардиомагнил):</strong> 1×/день вечером после ужина.</li>
         <li><strong>Статины (Аторвастатин):</strong> 1×/день — на ночь.</li>
-        <li><strong>Бета‑блокаторы (Бисопролол):</strong> 1×/день утром натощак, за 20 мин до еды.</li>
+        <li><strong>Бета‑блокаторы (Бисопролол):</strong> 1×/день утром натощак за 20 минут до еды.</li>
         <li><strong>Ингибиторы АПФ (Периндоприл):</strong> 1×/день утром натощак.</li>
       </ul>
-      <p class="ci-danger">❌ <strong>ТАБУ:</strong> полный отказ от курения.</p>
+      <p class="ci-danger">❌ <strong>ТАБУ:</strong> полный отказ от курения — никотин ухудшает эффект лечения.</p>
     </article>
 
     <hr class="ci-sep">
 
     <!-- Видео -->
     <div class="ci-block video-block" aria-labelledby="video-title">
-      <h2 id="video-title" class="ci-block-title">🎬 Обучающие видео</h2>
-      <p class="video-desc">Перейти к просмотру обучающих видеоуроков Минздрава России по технике измерения АД:</p>
+      <h2 id="video-title" class="ci-block-title"><span aria-hidden="true">🎬</span> Обучающие видео</h2>
+      <p class="video-desc">Короткий обучающий ролик по технике измерения артериального давления:</p>
       <p>
-        <a class="ci-button" href="https://vk.com/video-152474290_456239076?t=29s" target="_blank" rel="noopener">
-          ▶ Смотреть видео в VK (с 0:29)
+        <a class="ci-button" href="https://m.vk.com/video-152474290_456239076" target="_blank" rel="noopener noreferrer" aria-label="Открыть видео в VK">
+          ▶ Смотреть видео в VK
         </a>
       </p>
     </div>
@@ -88,13 +94,13 @@
 
     <!-- Заключение -->
     <footer class="ci-footer">
-      <p class="ci-strong">Строго выполняйте назначения лечащего врача‑кардиолога. Медсестра кабинета №16 поможет организовать контроль дома.</p>
+      <p class="ci-strong">Строго выполняйте назначения лечащего врача‑кардиолога. Медицинская сестра кабинета №16 поможет организовать контроль дома.</p>
       <p class="ci-note">⚠️ Памятка носит информационный характер. Самовольное изменение дозировок запрещено. При сомнениях обратитесь к врачу.</p>
     </footer>
   </div>
 </section>
 
-<!-- Стили: вставьте в <head> или в общий CSS -->
+<!-- Стили: можно оставить здесь или перенести в общий CSS -->
 <style>
   :root{
     --deep-blue:#052a4a;
@@ -105,26 +111,28 @@
     --card-bg: linear-gradient(180deg, rgba(11,118,255,0.02), rgba(7,43,91,0.01));
   }
 
+  /* Контейнер */
   .cardio-info { max-width:980px; margin:28px auto; padding:0 18px; font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; color:var(--deep-blue); }
-  .ci-inner { background:var(--card-bg); border-radius:14px; padding:22px; box-shadow:0 12px 40px rgba(5,42,74,0.06); border:1px solid rgba(11,118,255,0.03); }
+  .ci-inner { background:var(--card-bg); border-radius:14px; padding:26px; box-shadow:0 14px 48px rgba(5,42,74,0.06); border:1px solid rgba(11,118,255,0.03); }
 
-  .ci-header { text-align:center; margin-bottom:6px; }
-  .clinic-line { margin:0; color:var(--deep-blue); font-weight:700; font-size:13px; opacity:0.95; letter-spacing:0.3px; }
-  .ci-title { margin:8px 0 4px 0; font-size:20px; color:var(--deep-blue); font-weight:800; line-height:1.15; }
+  /* Заголовки */
+  .ci-header { text-align:center; margin-bottom:8px; }
+  .clinic-line { margin:0; color:var(--deep-blue); font-weight:700; font-size:13px; opacity:0.98; letter-spacing:0.3px; }
+  .ci-title { margin:10px 0 6px 0; font-size:22px; color:var(--deep-blue); font-weight:900; line-height:1.12; }
 
-  .ci-sep { border:0; border-top:1px solid var(--sep); margin:18px 0; }
-
+  /* Разделители и блоки */
+  .ci-sep { border:0; border-top:1px solid var(--sep); margin:20px 0; }
   .ci-block { padding:6px 2px 12px 2px; }
-  .ci-block-title { font-size:16px; margin:6px 0 10px 0; color:var(--deep-blue); font-weight:800; display:flex; align-items:center; gap:10px; }
+  .ci-block-title { font-size:17px; margin:6px 0 10px 0; color:var(--deep-blue); font-weight:800; display:flex; align-items:center; gap:10px; }
 
-  .ci-list { margin:0 0 8px 0; padding-left:20px; color:var(--deep-blue); }
-  .ci-list li { margin:8px 0; }
+  /* Списки и текст */
+  .ci-list { margin:0 0 8px 0; padding-left:22px; color:var(--deep-blue); font-weight:600; }
+  .ci-list li { margin:10px 0; }
+  .note { display:block; margin-top:6px; color:var(--accent); font-weight:800; }
 
-  .note { display:block; margin-top:6px; color:var(--accent); font-weight:700; }
-
-  .ci-emph { color:var(--deep-blue); font-weight:700; margin:6px 0; }
-  .ci-warning { color:var(--danger); font-weight:800; margin-top:8px; }
-  .ci-danger { color:var(--danger); font-weight:800; margin-top:8px; }
+  .ci-emph { color:var(--deep-blue); font-weight:800; margin:6px 0; }
+  .ci-warning { color:var(--danger); font-weight:900; margin-top:8px; }
+  .ci-danger { color:var(--danger); font-weight:900; margin-top:8px; }
 
   /* Traffic lights */
   .traffic { display:flex; flex-direction:column; gap:12px; }
@@ -133,23 +141,27 @@
   .dot.green { background:linear-gradient(180deg,#34c759,#2ea44f); }
   .dot.yellow { background:linear-gradient(180deg,#ffd54f,#f0ad4e); }
   .dot.red { background:linear-gradient(180deg,#ff6b6b,#d9534f); }
-  .traffic-text { color:var(--deep-blue); font-weight:600; }
+  .traffic-text { color:var(--deep-blue); font-weight:700; }
 
-  /* Button */
-  .ci-button { display:inline-block; padding:12px 18px; background:var(--accent); color:#fff; border-radius:12px; text-decoration:none; font-weight:800; box-shadow:0 14px 40px rgba(11,118,255,0.12); transition:transform .14s ease, box-shadow .14s ease; }
-  .ci-button:hover { transform:translateY(-4px); box-shadow:0 22px 60px rgba(11,118,255,0.18); background:#0960d6; }
+  /* Кнопки */
+  .ci-button { display:inline-block; padding:14px 18px; background:var(--accent); color:#fff; border-radius:12px; text-decoration:none; font-weight:800; box-shadow:0 14px 40px rgba(11,118,255,0.12); transition:transform .14s ease, box-shadow .14s ease; min-height:48px; line-height:1; }
+  .ci-button:hover { transform:translateY(-3px); box-shadow:0 22px 60px rgba(11,118,255,0.18); background:#0960d6; }
 
-  .video-desc { color:var(--muted); margin-bottom:8px; }
+  .emergency-row { margin-top:10px; }
+  .emergency-button { display:inline-block; padding:12px 16px; background:var(--danger); color:#fff; border-radius:12px; text-decoration:none; font-weight:800; box-shadow:0 10px 30px rgba(178,34,34,0.12); }
 
-  .ci-footer { margin-top:12px; padding-top:12px; border-top:1px dashed rgba(5,42,74,0.06); color:var(--deep-blue); }
-  .ci-strong { font-weight:800; margin:0 0 6px 0; }
+  .video-desc { color:var(--muted); margin-bottom:8px; font-weight:600; }
+
+  /* Footer */
+  .ci-footer { margin-top:14px; padding-top:14px; border-top:1px dashed rgba(5,42,74,0.06); color:var(--deep-blue); }
+  .ci-strong { font-weight:900; margin:0 0 6px 0; }
   .ci-note { color:var(--deep-blue); font-weight:700; margin:0; }
 
-  /* Small screens */
+  /* Responsive: кнопки полноширинные на узких экранах */
   @media (max-width:720px) {
-    .ci-inner { padding:16px; }
+    .ci-inner { padding:18px; }
     .ci-title { font-size:18px; }
     .ci-block-title { font-size:15px; }
-    .ci-button { width:100%; text-align:center; padding:12px; }
+    .ci-button, .emergency-button { width:100%; display:block; text-align:center; padding:14px; box-sizing:border-box; }
   }
-</style>
+    </style>
